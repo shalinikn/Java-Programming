@@ -2,7 +2,7 @@
 public class ConditionalStatements {
 
 	public static void main(String[] args) {
-		// if statements
+		// if statement
 		
 		if(20>18)
 		{
