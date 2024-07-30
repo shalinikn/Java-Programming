@@ -4,5 +4,11 @@ public class StringConcatination {
         String y = "stark";
         String z = x+" "+y;
         System.out.println(z);
+        System.out.println(z.length());
+
+        for(int i =0;i<z.length();i++)
+        {
+            System.out.println(z.charAt(i));
+        }
     }
 }
