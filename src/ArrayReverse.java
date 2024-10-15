@@ -4,8 +4,8 @@ public class ArrayReverse {
         ArrayReverse x = new ArrayReverse();
         int[] arr ={1,2,3,4};
         int n = 4;
-        int[] revarr = x.reversearr(arr,n);
-        x.print(revarr,n);
+        int[] output = x.reversearr(arr,n);
+        x.print(output,n);
 
     }
 
@@ -20,11 +20,11 @@ public class ArrayReverse {
         return ans;
     }
 
-    public void print(int[] ans, int n)
+    public void print(int[] output, int n)
     {
         for (int i=0;i<n;i++)
         {
-            System.out.print(ans[i]);
+            System.out.print(output[i]);
         }
         System.out.println();
     }
